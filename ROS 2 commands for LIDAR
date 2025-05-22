@@ -1,0 +1,20 @@
+cd ~/ros2_ws                    # Change directory to the ROS 2 workspace
+source install/setup.bash       # Source the workspace setup file to overlay the environment
+
+ls /dev/tty*                   # List serial devices to verify the connected LiDAR port
+
+ros2 launch rplidar_ros rplidar_a1_launch.py  # Launch the RPLIDAR A1 node to start LiDAR scanning
+
+ros2 topic echo /scan          # Subscribe and print real-time LiDAR scan data from the /scan topic
+
+ros2 run tf2_ros static_transform_publisher 0 0 0 0 0 0 map odom        # Publish a static transform from map to odom frame
+
+ros2 run tf2_ros static_transform_publisher 0 0 0 0 0 0 odom base_link   # Publish a static transform from odom to base_link frame
+
+ros2 run tf2_ros static_transform_publisher 0 0 0.1 0 0 0 base_link laser # Publish a static transform from base_link to laser frame with 0.1m offset (this measurement is taken according to the height at which my lidar is placed w.r.t robot's base link)
+
+cd ~/ros2_ws/src/my_robot_description/urdf/  # Change directory to the folder containing URDF files
+
+ros2 run robot_state_publisher robot_state_publisher robot.urdf   # Run robot_state_publisher node to publish robot's joint states and transforms based on URDF
+
+rviz2                          # Launch RViz2 visualization tool to view robot model and sensor data
