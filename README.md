@@ -13,7 +13,7 @@ Component	Specification / Pin Mapping
 - Servo Motor	SG90 (for scanning), Pin = 3
 - Motor Control Pins	ENA=6, ENB=5, IN1=11, IN2=9, IN3=8, IN4=7
 - Power Source	2x 18650 Li-ion 3C batteries (7.4V approx)
-- LiDAR (optional)	RPLIDAR A1 with ROS 2 and RViz
+- LiDAR: RPLIDAR A1 with ROS 2 and RViz
 - IR Sensors	A2 and A3 (reserved for line-following mode)
 
 ## 🧠 Working Logic :
@@ -33,8 +33,8 @@ Differential drive with speed compensation ensures smooth navigation. The L298N 
 
 #### Power Management:
 Dual 18650 Li-ion batteries supply the circuit through the sensor shield, ensuring organized power distribution.
-<br>
-[Arduino Code for Obstacle Avoidance](./FINAL_CODE_FOR_VIVA.ino)
+<br><br>
+➡️ [**Obstacle_avoidance_final_code.ino**](./Obstacle_avoidance_final_code.ino)
 
 
 ## 🌐 ROS 2 Integration (Advanced Layer):
@@ -46,7 +46,8 @@ URDF: Represents the robot structure in RViz
 
 Visualization: Laser scan (/scan) viewable in RViz GUI
 <br><br>
-**🌟 Key Features**<br>
+➡️ [**ROS 2 commands for lidar**](./commands_for_lidar)
+<br><br>**🌟 Key Features**<br>
 <br>Modular Sensor Shield-based wiring for ease of maintenance
 
 Servo-based directional scanning (left, center, right)
@@ -55,7 +56,7 @@ Autonomous obstacle detection & avoidance
 
 ROS 2 compatibility with LiDAR visualization
 
-Expandable for line following, Bluetooth remote control, and human tracking
+Expandable for line following, Bluetooth remote control
 
 ## 📈 Applications & Extensions
 Educational robotics and DIY prototyping
