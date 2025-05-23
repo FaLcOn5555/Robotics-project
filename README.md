@@ -14,7 +14,7 @@ Component	Specification / Pin Mapping
 - Motor Control Pins	ENA=6, ENB=5, IN1=11, IN2=9, IN3=8, IN4=7
 - Power Source	2x 18650 Li-ion 3C batteries (7.4V approx)
 - LiDAR: RPLIDAR A1 with ROS 2 and RViz
-- IR Sensors	A2 and A3 (reserved for line-following mode)
+- HC-05 bluetooth module
 
 ## 🧠 Working Logic :
 #### Scanning & Sensing:
@@ -57,7 +57,8 @@ Visualization: Laser scan (/scan) viewable in RViz GUI
 <p align="center">
   <img src="./rviz_scan_2.png" alt="RViz LiDAR Scan 2" width="1200"/>
 </p>
-<br><br>**🌟 Key Features**<br>
+<br>
+<br>🌟Key Features <br>
 <br>Modular Sensor Shield-based wiring for ease of maintenance
 
 Servo-based directional scanning (left, center, right)
