@@ -57,7 +57,6 @@ Visualization: Laser scan (/scan) viewable in RViz GUI
 <p align="center">
   <img src="./rviz_scan_2.png" alt="RViz LiDAR Scan 2" width="1200"/>
 </p>
-<br>
 <br>🌟Key Features <br>
 <br>Modular Sensor Shield-based wiring for ease of maintenance
 
@@ -77,16 +76,5 @@ Indoor surveillance or warehouse bots
 SLAM algorithm testing platform
 
 Vision and ML integration (future upgrade)
-
-## 🔮 Scope for Future Enhancements
-Add Gmapping / Cartographer SLAM for full autonomy
-
-Integrate OpenCV + camera for object and QR detection
-
-Shift to Raspberry Pi + onboard AI models
-
-Enable multi-robot communication and wireless monitoring
-<br>
-#### If any queries pls contact me on 7042475111. Would be happy to help:)
 
 
