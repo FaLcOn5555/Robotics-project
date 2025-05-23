@@ -51,10 +51,11 @@ Visualization: Laser scan (/scan) viewable in RViz GUI
 ### 🔍 Sample LiDAR Scans from RViz
 
 <p align="center">
-  <img src="./Lidar_scan_1.png" alt="RViz LiDAR Scan 1" width="600"/>
+  <img src="./rviz_scan_1.png" alt="RViz LiDAR Scan 1" width="1200"/>
 </p>
+
 <p align="center">
-  <img src="./lidar_scan_2.png" alt="RViz LiDAR Scan 2" width="600"/>
+  <img src="./rviz_scan_2.png" alt="RViz LiDAR Scan 2" width="1200"/>
 </p>
 <br><br>**🌟 Key Features**<br>
 <br>Modular Sensor Shield-based wiring for ease of maintenance
