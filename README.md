@@ -47,6 +47,15 @@ URDF: Represents the robot structure in RViz
 Visualization: Laser scan (/scan) viewable in RViz GUI
 <br><br>
 ➡️ [**ROS 2 commands for lidar**](./commands_for_lidar)
+<br><br>
+### 🔍 Sample LiDAR Scans from RViz
+
+<p align="center">
+  <img src="./Lidar_scan_1.png" alt="RViz LiDAR Scan 1" width="600"/>
+</p>
+<p align="center">
+  <img src="./lidar_scan_2.png" alt="RViz LiDAR Scan 2" width="600"/>
+</p>
 <br><br>**🌟 Key Features**<br>
 <br>Modular Sensor Shield-based wiring for ease of maintenance
 
