@@ -34,6 +34,8 @@ Differential drive with speed compensation ensures smooth navigation. The L298N 
 #### Power Management:
 Dual 18650 Li-ion batteries supply the circuit through the sensor shield, ensuring organized power distribution.
 <br>
+[Arduino Code for Obstacle Avoidance](./FINAL_CODE_FOR_VIVA.ino)
+
 
 ## 🌐 ROS 2 Integration (Advanced Layer):
 Using RPLIDAR A1, the robot integrates with ROS 2 Humble for real-time 2D environment scanning and visualization:
