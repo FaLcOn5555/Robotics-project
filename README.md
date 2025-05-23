@@ -72,8 +72,7 @@ Integrate OpenCV + camera for object and QR detection
 Shift to Raspberry Pi + onboard AI models
 
 Enable multi-robot communication and wireless monitoring
-<br><br>
-Devyansh Tomar 
-<br>Contact: 7042475111
+<br>
+#### If any queries pls contact me on 7042475111. Would be happy to help:)
 
 
